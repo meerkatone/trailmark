@@ -620,7 +620,7 @@ dev = [
 requires-dist = [
     { name = "rustworkx", specifier = ">=0.17,<1.0" },
     { name = "tree-sitter", specifier = ">=0.25,<1.0" },
-    { name = "tree-sitter-language-pack", specifier = ">=0.13,<2.0" },
+    { name = "tree-sitter-language-pack", specifier = ">=0.13,!=1.6.3,<2.0" },
 ]
 
 [package.metadata.requires-dev]
